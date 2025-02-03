@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly audit="false" blocklyType="JAVA" bpmnAble="false" formTarget="src/main/webapp/views/logged/MongoDB.view.html" functionCategory="" library="false" linkHelp="" multilayer="false" resourceType="JAVA" ruleDescription="Bloco" ruleName="Bloco" ruleSynchronous="false" ruleTimeout="300" ruleType="I" showAsFunction="false" soap="false" swagger="false">
+  <metadata scale="1" scrollx="594.7" scrolly="-126.6" target="yvsFNXe^PeR3Re)xE8)a"/>
+  <block asynccall="false" colour="#995ba5" datasourcetype="" id="yvsFNXe^PeR3Re)xE8)a" origintype="procedures_defreturn" output="false" score="9007199254740991" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" valueconstant="" x="-487" y="173">
+    <field customattributes="" name="NAME">Deletar</field>
+    <statement name="STACK">
+      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="yvsFNXe^PeR3Re)xE8)a" id="g]L7{Y`xpV{s0r9YfZ?Q" origintype="variables_set" output="false" score="9007199254740991" tooltip="Define esta variável para o valor da entrada." type="variables_set" valueconstant="">
+        <field customattributes="" name="VAR">connectionString</field>
+        <value name="VALUE">
+          <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="yvsFNXe^PeR3Re)xE8)a" id="@Iz6kJ3e%L#v0C!#F^t9" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+            <field customattributes="" name="TEXT">mongodb+srv://Fabio:QFf8AbuMb3ESWTiT@docflix.hqah2.mongodb.net/?retryWrites=true&amp;w=majority&amp;appName=DocFlix</field>
+          </block>
+        </value>
+        <next>
+          <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="yvsFNXe^PeR3Re)xE8)a" id="c]?egd2}R%}LKV0!xnc!" origintype="variables_set" output="false" score="9007199254740991" tooltip="Define esta variável para o valor da entrada." type="variables_set" valueconstant="">
+            <field customattributes="" name="VAR">item</field>
+            <value name="VALUE">
+              <block asynccall="false" colour="#995ba5" datasourcetype="" dependencyby="yvsFNXe^PeR3Re)xE8)a" id="9ev.ckT|~DzE.*scx.}F" multilayer="false" namespace="cronapp.framework.mongodb.Operations.delete" origintype="procedures_callreturn" output="true" returntype="ObjectType.VOID" score="9007199254740991" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EDeletar%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EM%C3%A9todo%20utilizado%20para%20deletar%20dados%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20String%20de%20conex%C3%A3o%20:%20Desconhecido%3C/span%3E%3Cdiv%3E%20Texto%20que%20cont%C3%A9m%20informa%C3%A7%C3%B5es%20necess%C3%A1rias%20para%20estabelecer%20uma%20conex%C3%A3o%20com%20o%20MongoDB%3C/div%3E%3Cspan%3E%20-%20Banco%20de%20dados%20:%20Desconhecido%3C/span%3E%3Cdiv%3E%20Local%20que%20pode%20conter%20uma%20ou%20mais%20cole%C3%A7%C3%B5es%20de%20dados%3C/div%3E%3Cspan%3E%20-%20Cole%C3%A7%C3%A3o%20:%20Desconhecido%3C/span%3E%3Cdiv%3E%20%C3%89%20um%20grupo%20l%C3%B3gico%20de%20documentos%20an%C3%A1loga%20a%20uma%20tabela%20em%20um%20banco%20de%20dados%20relacional%3C/div%3E%3Cspan%3E%20-%20Filtro%20:%20Desconhecido%3C/span%3E%3Cdiv%3E%20%C3%89%20uma%20condi%C3%A7%C3%A3o%20ou%20crit%C3%A9rio%20usado%20em%20opera%C3%A7%C3%B5es%20de%20consulta%20para%20recuperar%20documentos%20que%20satisfa%C3%A7am%20o%20filtro.%20Ex%20de%20filtro:%20%20%7B'title':%20'Hotel%20Paris'%7D%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Sem%20retorno%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-next.cronapp.io/help?type=blockly&amp;amp;id=cronapp.framework.mongodb.Operations.delete','cronapp.framework.mongodb.Operations.delete')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn" valueconstant="">
+                <mutation name="{{cronapp.framework.mongodb.Operations.delete}}" return-raw-type="cronapi.Var">
+                  <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.UNKNOWN" name="String de conexão"/>
+                  <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.UNKNOWN" name="Banco de dados"/>
+                  <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.UNKNOWN" name="Coleção"/>
+                  <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.UNKNOWN" name="Filtro"/>
+                </mutation>
+                <value name="ARG0">
+                  <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="yvsFNXe^PeR3Re)xE8)a" id="Y4aN3Ha=/Buq;.)V?uW#" origintype="variables_get" output="true" score="9007199254740991" tooltip="Retorna o valor desta variável." type="variables_get" valueconstant="">
+                    <field customattributes="" name="VAR">connectionString</field>
+                  </block>
+                </value>
+                <value name="ARG1">
+                  <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="yvsFNXe^PeR3Re)xE8)a" id="QW:g7ysDigFtg=*PfNT5" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                    <field customattributes="" name="TEXT">sample_mflix</field>
+                  </block>
+                </value>
+                <value name="ARG2">
+                  <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="yvsFNXe^PeR3Re)xE8)a" id="|Mx,uMl8@LyXMku@}.Q8" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                    <field customattributes="" name="TEXT">movies</field>
+                  </block>
+                </value>
+                <value name="ARG3">
+                  <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="yvsFNXe^PeR3Re)xE8)a" id="fp7qe:,!]p).%#GW#pQi" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                    <field customattributes="" name="TEXT">{ 'id':'xpto' }</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block asynccall="false" colour="#5ba58c" datasourcetype="" dependencyby="yvsFNXe^PeR3Re)xE8)a" id=")RmRtk}.ggUnt:k8[c7c" origintype="text_print" output="false" score="9007199254740991" tooltip="Imprime o texto, número ou valor especificado." type="text_print" valueconstant="">
+                <value name="TEXT">
+                  <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="yvsFNXe^PeR3Re)xE8)a" id="0Zfd|oH6Z4fi4vMo2Das" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                    <field customattributes="" name="TEXT">Deletados:</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block asynccall="false" colour="#5ba58c" datasourcetype="" dependencyby="yvsFNXe^PeR3Re)xE8)a" id="65K^]}Sf1:RV@g_1`@8-" origintype="text_print" output="false" score="9007199254740991" tooltip="Imprime o texto, número ou valor especificado." type="text_print" valueconstant="">
+                    <value name="TEXT">
+                      <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="GWWV,:/3sLei+yE0WEM@" origintype="text" output="true" tooltip="function () { [native code] }" type="text" xmlns="">
+                        <field customattributes="" name="TEXT">abc</field>
+                      </shadow>
+                      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="yvsFNXe^PeR3Re)xE8)a" id="A,-yfXf3e1eh!mY0=(y(" origintype="variables_get" output="true" score="9007199254740991" tooltip="Retorna o valor desta variável." type="variables_get" valueconstant="">
+                        <field customattributes="" name="VAR">item</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block asynccall="false" colour="#995ba5" datasourcetype="" id="LEUu|*`wK7e.^$~vHqzM" origintype="procedures_defreturn" output="false" score="9007199254740991" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" valueconstant="" x="-268" y="236">
+    <mutation>
+      <arg id="9c0fa979" name="name"/>
+    </mutation>
+    <field customattributes="" name="NAME">Inserir</field>
+    <statement name="STACK">
+      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="LEUu|*`wK7e.^$~vHqzM" id="?/,df?eP*~^;GU6Q?$$j" origintype="variables_set" output="false" score="9007199254740991" tooltip="Define esta variável para o valor da entrada." type="variables_set" valueconstant="">
+        <field customattributes="" name="VAR">connectionString</field>
+        <value name="VALUE">
+          <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="LEUu|*`wK7e.^$~vHqzM" id="eodmuGmI!Leeo]+DYaaI" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+            <field customattributes="" name="TEXT">mongodb+srv://Fabio:QFf8AbuMb3ESWTiT@docflix.hqah2.mongodb.net/?retryWrites=true&amp;w=majority&amp;appName=DocFlix</field>
+          </block>
+        </value>
+        <next>
+          <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="LEUu|*`wK7e.^$~vHqzM" id="xuNN%fDgk[I^%if4UMz(" origintype="variables_set" output="false" score="9007199254740991" tooltip="Define esta variável para o valor da entrada." type="variables_set" valueconstant="">
+            <field customattributes="" name="VAR">item</field>
+            <value name="VALUE">
+              <block asynccall="false" colour="#995ba5" datasourcetype="" dependencyby="LEUu|*`wK7e.^$~vHqzM" id="4*SC6-3s[h-sY%^Iqi)G" multilayer="false" namespace="cronapp.framework.mongodb.Operations.insert" origintype="procedures_callreturn" output="true" returntype="ObjectType.VOID" score="9007199254740991" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EInserir%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EM%C3%A9todo%20utilizado%20para%20inserir%20dados%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20String%20de%20conex%C3%A3o%20:%20Desconhecido%3C/span%3E%3Cdiv%3E%20Texto%20que%20cont%C3%A9m%20informa%C3%A7%C3%B5es%20necess%C3%A1rias%20para%20estabelecer%20uma%20conex%C3%A3o%20com%20o%20MongoDB%3C/div%3E%3Cspan%3E%20-%20Banco%20de%20dados%20:%20Desconhecido%3C/span%3E%3Cdiv%3E%20Local%20que%20pode%20conter%20uma%20ou%20mais%20cole%C3%A7%C3%B5es%20de%20dados%3C/div%3E%3Cspan%3E%20-%20Cole%C3%A7%C3%A3o%20:%20Desconhecido%3C/span%3E%3Cdiv%3E%20%C3%89%20um%20grupo%20l%C3%B3gico%20de%20documentos%20an%C3%A1loga%20a%20uma%20tabela%20em%20um%20banco%20de%20dados%20relacional%3C/div%3E%3Cspan%3E%20-%20Dados%20:%20Desconhecido%3C/span%3E%3Cdiv%3E%20%C3%89%20uma%20unidade%20b%C3%A1sica%20de%20armazenamento%20de%20dados.%20Ele%20%C3%A9%20an%C3%A1logo%20a%20uma%20linha%20em%20uma%20tabela%20de%20um%20banco%20de%20dados%20relacional.%20Ex%20de%20dado:%20%20%7B'title':%20'Hotel%20Paris'%7D%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Sem%20retorno%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-next.cronapp.io/help?type=blockly&amp;amp;id=cronapp.framework.mongodb.Operations.insert','cronapp.framework.mongodb.Operations.insert')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn" valueconstant="">
+                <mutation name="{{cronapp.framework.mongodb.Operations.insert}}" return-raw-type="cronapi.Var">
+                  <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.UNKNOWN" name="String de conexão"/>
+                  <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.UNKNOWN" name="Banco de dados"/>
+                  <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.UNKNOWN" name="Coleção"/>
+                  <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.UNKNOWN" name="Dados"/>
+                </mutation>
+                <value name="ARG0">
+                  <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="LEUu|*`wK7e.^$~vHqzM" id="nA7y?h6$_Xxw|1iL(ka#" origintype="variables_get" output="true" score="9007199254740991" tooltip="Retorna o valor desta variável." type="variables_get" valueconstant="">
+                    <field customattributes="" name="VAR">connectionString</field>
+                  </block>
+                </value>
+                <value name="ARG1">
+                  <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="LEUu|*`wK7e.^$~vHqzM" id=",U/m3|!(@nuL6A5Q;P@?" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                    <field customattributes="" name="TEXT">sample_mflix</field>
+                  </block>
+                </value>
+                <value name="ARG2">
+                  <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="LEUu|*`wK7e.^$~vHqzM" id="unE4!oH7J(M0axV4jwTh" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                    <field customattributes="" name="TEXT">movies</field>
+                  </block>
+                </value>
+                <value name="ARG3">
+                  <block asynccall="false" colour="#5ba58c" datasourcetype="" dependencyby="LEUu|*`wK7e.^$~vHqzM" id="K;!uS!f]rEm9LlUCd_5B" origintype="text_join" output="true" score="9007199254740991" tooltip="Criar um pedaço de texto juntando qualquer número de itens." type="text_join" valueconstant="">
+                    <mutation items="3"/>
+                    <value name="ADD0">
+                      <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="LEUu|*`wK7e.^$~vHqzM" id="mhm[J_!=f]q4I/DyB#4n" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                        <field customattributes="" name="TEXT">{'title':'</field>
+                      </block>
+                    </value>
+                    <value name="ADD1">
+                      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="LEUu|*`wK7e.^$~vHqzM" id="]/TFRd`JKSk:,/GjS;!%" origintype="variables_get" output="true" score="9007199254740991" tooltip="Retorna o valor desta variável." type="variables_get" valueconstant="">
+                        <field customattributes="" name="VAR">name</field>
+                      </block>
+                    </value>
+                    <value name="ADD2">
+                      <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="LEUu|*`wK7e.^$~vHqzM" id="MlhFL2*e3p6-SefCQ]{E" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                        <field customattributes="" name="TEXT">'}</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="LEUu|*`wK7e.^$~vHqzM" id="lBzqNKBY1.{6k5`sv6-/" multilayer="true" namespace="cronapi.screen.changeValueOfField" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" score="9007199254740991" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EAlterar%20valor%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20alterar%20valor%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Campo%20:%20Texto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Valor%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-s.cronapp.io/help?type=blockly&amp;amp;id=cronapi.screen.changeValueOfField','cronapi.screen.changeValueOfField')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn" valueconstant="">
+                <mutation name="{{cronapi.screen.changeValueOfField}}" return-raw-type="undefined">
+                  <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Campo"/>
+                  <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Valor"/>
+                </mutation>
+                <value name="ARG0">
+                  <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="LEUu|*`wK7e.^$~vHqzM" id=":-BbL`O3e:)YcYP-WL9h" origintype="form_fieldscreen_callreturn" output="true" score="9007199254740991" type="form_fieldscreen_callreturn" valueconstant="">
+                    <field customattributes="" name="SELECT">vars.input2311</field>
+                  </block>
+                </value>
+                <value name="ARG1">
+                  <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="LEUu|*`wK7e.^$~vHqzM" id=".NGQa6Jx|6O$*Gq%*~.w" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                    <field customattributes="" name="TEXT"/>
+                  </shadow>
+                  <block asynccall="false" colour="#0e9a6c" datasourcetype="" dependencyby="LEUu|*`wK7e.^$~vHqzM" id=".d)pVbe2u68T_9}#R;xH" multilayer="false" namespace="cronapi.conversion.Operations.toString" origintype="procedures_callreturn" output="true" returntype="ObjectType.STRING" score="9007199254740991" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EConverter%20para%20texto%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20converter%20para%20texto%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Conte%C3%BAdo%20:%20Objeto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Texto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-s.cronapp.io/help?type=blockly&amp;amp;id=cronapi.conversion.Operations.toString','cronapi.conversion.Operations.toString')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn" valueconstant="">
+                    <mutation name="{{cronapi.conversion.Operations.toString}}" return-raw-type="cronapi.Var">
+                      <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.OBJECT" name="Conteúdo"/>
+                    </mutation>
+                    <value name="ARG0">
+                      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="LEUu|*`wK7e.^$~vHqzM" id="@jQ-r.NGWz-3?#%m:EJl" origintype="variables_get" output="true" score="9007199254740991" tooltip="Retorna o valor desta variável." type="variables_get" valueconstant="">
+                        <field customattributes="" name="VAR">item</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="LEUu|*`wK7e.^$~vHqzM" id="O(V.E2v-{ykF9JF!MWxv" multilayer="true" namespace="cronapi.screen.notify" origintype="notify_type" output="false" returntype="ObjectType.VOID" score="9007199254740991" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EExibe%20notifica%C3%A7%C3%A3o%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20exibe%20notifica%C3%A7%C3%A3o%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Tipo%20da%20notifica%C3%A7%C3%A3o%20:%20Texto%3C/span%3E%3Cdiv%3E%20pode%20ser%20success,%20error,%20warning,%20info%20ou%20primary%3C/div%3E%3Cspan%3E%20-%20Mensagem%20:%20Texto%3C/span%3E%3Cdiv%3E%20Mensagem%20ou%20conte%C3%BAdo%20html%20a%20ser%20exibido%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-s.cronapp.io/help?type=blockly&amp;amp;id=cronapi.screen.notify','cronapi.screen.notify')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="notify_type" valueconstant="">
+                    <mutation name="{{cronapi.screen.notify}}" value="[object Object]"/>
+                    <field customattributes="" name="SELECT">success</field>
+                    <value name="MESSAGE">
+                      <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="LEUu|*`wK7e.^$~vHqzM" id=".nMu;1^W~f9)LPFsqwMq" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                        <field customattributes="" name="TEXT">Filme inserido com sucesso</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block asynccall="false" colour="#995ba5" datasourcetype="" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" score="9007199254740991" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" valueconstant="" x="-272" y="238">
+    <field customattributes="" name="NAME">Consultar</field>
+    <statement name="STACK">
+      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="cJcgYW@[`f[oE9#24:j6" origintype="variables_set" output="false" score="9007199254740991" tooltip="Define esta variável para o valor da entrada." type="variables_set" valueconstant="">
+        <field customattributes="" name="VAR">connectionString</field>
+        <value name="VALUE">
+          <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="*}cY4g;s;iz9QMiMi/LK" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+            <field customattributes="" name="TEXT">mongodb+srv://Fabio:QFf8AbuMb3ESWTiT@docflix.hqah2.mongodb.net/?retryWrites=true&amp;w=majority&amp;appName=DocFlix</field>
+          </block>
+        </value>
+        <next>
+          <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="mq5_E=N_!Nc/}t}yTig%" origintype="variables_set" output="false" score="9007199254740991" tooltip="Define esta variável para o valor da entrada." type="variables_set" valueconstant="">
+            <field customattributes="" name="VAR">item</field>
+            <value name="VALUE">
+              <block asynccall="false" colour="#995ba5" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="F|S],;vlCf=eYVR[wN/N" multilayer="false" namespace="cronapp.framework.mongodb.Operations.find" origintype="procedures_callreturn" output="true" returntype="ObjectType.VOID" score="9007199254740991" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EConsultar%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EM%C3%A9todo%20utilizado%20para%20consultar%20dados%20com%20ou%20sem%20filtro%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20String%20de%20conex%C3%A3o%20:%20Desconhecido%3C/span%3E%3Cdiv%3E%20Texto%20que%20cont%C3%A9m%20informa%C3%A7%C3%B5es%20necess%C3%A1rias%20para%20estabelecer%20uma%20conex%C3%A3o%20com%20o%20MongoDB%20%3C/div%3E%3Cspan%3E%20-%20Banco%20de%20dados%20:%20Desconhecido%3C/span%3E%3Cdiv%3E%20Local%20que%20pode%20conter%20uma%20ou%20mais%20cole%C3%A7%C3%B5es%20de%20dados%3C/div%3E%3Cspan%3E%20-%20Cole%C3%A7%C3%A3o%20:%20Desconhecido%3C/span%3E%3Cdiv%3E%20%C3%89%20um%20grupo%20l%C3%B3gico%20de%20documentos%20an%C3%A1loga%20a%20uma%20tabela%20em%20um%20banco%20de%20dados%20relacional%3C/div%3E%3Cspan%3E%20-%20Filtro%20:%20Desconhecido%3C/span%3E%3Cdiv%3E%20%C3%89%20uma%20condi%C3%A7%C3%A3o%20ou%20crit%C3%A9rio%20usado%20em%20opera%C3%A7%C3%B5es%20de%20consulta%20para%20recuperar%20documentos%20que%20satisfa%C3%A7am%20o%20filtro.%20Ex%20de%20filtro:%20%20%7B'title':%20'Hotel%20Paris'%7D%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Sem%20retorno%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-next.cronapp.io/help?type=blockly&amp;amp;id=cronapp.framework.mongodb.Operations.find','cronapp.framework.mongodb.Operations.find')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn" valueconstant="">
+                <mutation name="{{cronapp.framework.mongodb.Operations.find}}" return-raw-type="cronapi.Var">
+                  <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.UNKNOWN" name="String de conexão"/>
+                  <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.UNKNOWN" name="Banco de dados"/>
+                  <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.UNKNOWN" name="Coleção"/>
+                  <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.UNKNOWN" name="Filtro"/>
+                </mutation>
+                <value name="ARG0">
+                  <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="gIaP+)8*H*f:zC4S`$v]" origintype="variables_get" output="true" score="9007199254740991" tooltip="Retorna o valor desta variável." type="variables_get" valueconstant="">
+                    <field customattributes="" name="VAR">connectionString</field>
+                  </block>
+                </value>
+                <value name="ARG1">
+                  <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="aJm#fQQMr*ei52RIEqJ*" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                    <field customattributes="" name="TEXT">sample_mflix</field>
+                  </block>
+                </value>
+                <value name="ARG2">
+                  <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="t33z,cI.:,$3CqZ?y1Y@" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                    <field customattributes="" name="TEXT">movies</field>
+                  </block>
+                </value>
+                <value name="ARG3">
+                  <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="`ypsanqbTg`FoI_CD8xZ" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                    <field customattributes="" name="TEXT">{ '$or': [ { 'title': 'Aes' }, { 'id': 'xpto' } ] }</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block asynccall="false" colour="#5ba58c" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="=Yc$4e;*}H6S?JsxeBlJ" origintype="text_print" output="false" score="9007199254740991" tooltip="Imprime o texto, número ou valor especificado." type="text_print" valueconstant="">
+                <value name="TEXT">
+                  <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="GWWV,:/3sLei+yE0WEM@" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                    <field customattributes="" name="TEXT">Resultado:</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block asynccall="false" colour="#5ba58c" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="[!-g#@Sa|uAV`_PwLwEi" origintype="text_print" output="false" score="9007199254740991" tooltip="Imprime o texto, número ou valor especificado." type="text_print" valueconstant="">
+                    <value name="TEXT">
+                      <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="GWWV,:/3sLei+yE0WEM@" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                        <field customattributes="" name="TEXT">abc</field>
+                      </shadow>
+                      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="ayIv]Fixibjl}LAHnhGm" origintype="variables_get" output="true" score="9007199254740991" tooltip="Retorna o valor desta variável." type="variables_get" valueconstant="">
+                        <field customattributes="" name="VAR">item</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block asynccall="false" colour="#995ba5" datasourcetype="" id="t{Rg4-3+0$@6]k1#f`Fh" origintype="procedures_defreturn" output="false" score="9007199254740991" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" valueconstant="" x="-385" y="273">
+    <field customattributes="" name="NAME">Atualizar</field>
+    <statement name="STACK">
+      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="t{Rg4-3+0$@6]k1#f`Fh" id="^_%F4opJ,R87ZH{%]wE!" origintype="variables_set" output="false" score="9007199254740991" tooltip="Define esta variável para o valor da entrada." type="variables_set" valueconstant="">
+        <field customattributes="" name="VAR">connectionString</field>
+        <value name="VALUE">
+          <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="t{Rg4-3+0$@6]k1#f`Fh" id="9YNX2T?i+l@kC3*T/Lc2" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+            <field customattributes="" name="TEXT">mongodb+srv://Fabio:QFf8AbuMb3ESWTiT@docflix.hqah2.mongodb.net/?retryWrites=true&amp;w=majority&amp;appName=DocFlix</field>
+          </block>
+        </value>
+        <next>
+          <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="t{Rg4-3+0$@6]k1#f`Fh" id="!$fsw#OR9CrpVl-2I)8-" origintype="variables_set" output="false" score="9007199254740991" tooltip="Define esta variável para o valor da entrada." type="variables_set" valueconstant="">
+            <field customattributes="" name="VAR">item</field>
+            <value name="VALUE">
+              <block asynccall="false" colour="#995ba5" datasourcetype="" dependencyby="t{Rg4-3+0$@6]k1#f`Fh" id="-51L30Wx//d_BD?z]zDB" multilayer="false" namespace="cronapp.framework.mongodb.Operations.update" origintype="procedures_callreturn" output="true" returntype="ObjectType.VOID" score="9007199254740991" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EAtualizar%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EM%C3%A9todo%20utilizado%20para%20atualizar%20dados%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20String%20de%20conex%C3%A3o%20:%20Desconhecido%3C/span%3E%3Cdiv%3E%20Texto%20que%20cont%C3%A9m%20informa%C3%A7%C3%B5es%20necess%C3%A1rias%20para%20estabelecer%20uma%20conex%C3%A3o%20com%20o%20MongoDB%3C/div%3E%3Cspan%3E%20-%20Banco%20de%20dados%20:%20Desconhecido%3C/span%3E%3Cdiv%3E%20Local%20que%20pode%20conter%20uma%20ou%20mais%20cole%C3%A7%C3%B5es%20de%20dados%3C/div%3E%3Cspan%3E%20-%20Cole%C3%A7%C3%A3o%20:%20Desconhecido%3C/span%3E%3Cdiv%3E%20%C3%89%20um%20grupo%20l%C3%B3gico%20de%20documentos%20an%C3%A1loga%20a%20uma%20tabela%20em%20um%20banco%20de%20dados%20relacional%3C/div%3E%3Cspan%3E%20-%20Filtro%20:%20Desconhecido%3C/span%3E%3Cdiv%3E%20%C3%89%20uma%20condi%C3%A7%C3%A3o%20ou%20crit%C3%A9rio%20usado%20em%20opera%C3%A7%C3%B5es%20de%20consulta%20para%20recuperar%20documentos%20que%20satisfa%C3%A7am%20o%20filtro.%20Ex%20de%20filtro:%20%20%7B'title':%20'Hotel%20Paris'%7D%3C/div%3E%3Cspan%3E%20-%20Dados%20:%20Desconhecido%3C/span%3E%3Cdiv%3E%20%C3%89%20uma%20unidade%20b%C3%A1sica%20de%20armazenamento%20de%20dados.%20Ele%20%C3%A9%20an%C3%A1logo%20a%20uma%20linha%20em%20uma%20tabela%20de%20um%20banco%20de%20dados%20relacional.%20Ex%20de%20dado%20para%20atualizar:%20%7B'$set'%20:%20%7B'title':%20'Hotel%20Londres'%7D%20%7D%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Sem%20retorno%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide-next.cronapp.io/help?type=blockly&amp;amp;id=cronapp.framework.mongodb.Operations.update','cronapp.framework.mongodb.Operations.update')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn" valueconstant="">
+                <mutation name="{{cronapp.framework.mongodb.Operations.update}}" return-raw-type="cronapi.Var">
+                  <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.UNKNOWN" name="String de conexão"/>
+                  <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.UNKNOWN" name="Banco de dados"/>
+                  <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.UNKNOWN" name="Coleção"/>
+                  <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.UNKNOWN" name="Filtro"/>
+                  <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.UNKNOWN" name="Dados"/>
+                </mutation>
+                <value name="ARG0">
+                  <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="t{Rg4-3+0$@6]k1#f`Fh" id="a$ZjIvDP,I`gdj[s?^tB" origintype="variables_get" output="true" score="9007199254740991" tooltip="Retorna o valor desta variável." type="variables_get" valueconstant="">
+                    <field customattributes="" name="VAR">connectionString</field>
+                  </block>
+                </value>
+                <value name="ARG1">
+                  <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="t{Rg4-3+0$@6]k1#f`Fh" id="wH,@q8.Jcj1;r%ilJs{T" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                    <field customattributes="" name="TEXT">sample_mflix</field>
+                  </block>
+                </value>
+                <value name="ARG2">
+                  <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="t{Rg4-3+0$@6]k1#f`Fh" id="j^8DT_izTzOcrH=6ZTqX" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                    <field customattributes="" name="TEXT">movies</field>
+                  </block>
+                </value>
+                <value name="ARG3">
+                  <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="t{Rg4-3+0$@6]k1#f`Fh" id=",a6`vc4s,l;9oH+7Rp)%" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                    <field customattributes="" name="TEXT">{ 'id':'xpto' }</field>
+                  </block>
+                </value>
+                <value name="ARG4">
+                  <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="t{Rg4-3+0$@6]k1#f`Fh" id="%r#eOjfHiWz?zG;ex*0A" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                    <field customattributes="" name="TEXT">{'$set' : {'title': 'Teste Romano 2'} }</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block asynccall="false" colour="#5ba58c" datasourcetype="" dependencyby="t{Rg4-3+0$@6]k1#f`Fh" id=",2jRiL{0Q7dZVo5sR=ku" origintype="text_print" output="false" score="9007199254740991" tooltip="Imprime o texto, número ou valor especificado." type="text_print" valueconstant="">
+                <value name="TEXT">
+                  <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="t{Rg4-3+0$@6]k1#f`Fh" id="ql^u~{h`%-u=c+j{:XO4" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                    <field customattributes="" name="TEXT">Atualizados:</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block asynccall="false" colour="#5ba58c" datasourcetype="" dependencyby="t{Rg4-3+0$@6]k1#f`Fh" id="m`%EbMC9KC,I1@fYXy~d" origintype="text_print" output="false" score="9007199254740991" tooltip="Imprime o texto, número ou valor especificado." type="text_print" valueconstant="">
+                    <value name="TEXT">
+                      <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="GWWV,:/3sLei+yE0WEM@" origintype="text" output="true" tooltip="function () { [native code] }" type="text" xmlns="">
+                        <field customattributes="" name="TEXT">abc</field>
+                      </shadow>
+                      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="t{Rg4-3+0$@6]k1#f`Fh" id="6ijmiT+R{u`~c3Jcu?-i" origintype="variables_get" output="true" score="9007199254740991" tooltip="Retorna o valor desta variável." type="variables_get" valueconstant="">
+                        <field customattributes="" name="VAR">item</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</blockly>

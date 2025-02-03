@@ -398,5 +398,29 @@
         ]
       }
     ]
+  },
+  {
+    "gluonsoftId": "48F56CDB-54A4-45DF-A03D-6511D525AB67",
+    "versionId": "f4c19b79-d1a2-4787-80ad-1665512ee07e",
+    "name": "MongoDB",
+    "version": null,
+    "dateAdded": "2025-02-03 18:32:28",
+    "filesMerged": [
+      {
+        "name": "pom.xml",
+        "path": "/pom.xml",
+        "mavenDependecies": [
+          {
+            "artifactId": "cronapp-plugin-mongodb",
+            "classifier": null,
+            "groupId": "io.cronapp",
+            "scope": null,
+            "systemPath": null,
+            "type": null,
+            "version": "3.2.1-SP.2"
+          }
+        ]
+      }
+    ]
   }
 ]
