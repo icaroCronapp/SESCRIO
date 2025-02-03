@@ -7,11 +7,10 @@ import org.springframework.context.annotation.ComponentScan;
 import java.util.TimeZone;
 import cronapp.framework.boot.CronappInitializer;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
-import org.springframework.boot.actuate.autoconfigure.metrics.mongo.MongoMetricsAutoConfiguration;
 
 @SpringBootApplication
 @ComponentScan(basePackages = { "cronapp.framework.authentication.token", "cronapp.framework.authentication.security", "cronapp.framework.rest", "cronapp.framework.scheduler", "auth.permission", "api.rest.events", "api.rest.webservices", "reports", "cronapi", "blockly", "app", "farmacia" })
-@EnableAutoConfiguration(exclude = { DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class, MongoMetricsAutoConfiguration.class })
+@EnableAutoConfiguration(exclude = { DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class })
 public class SpringBootMain extends CronappInitializer {
 
     static {
